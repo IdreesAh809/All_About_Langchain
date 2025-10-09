@@ -1,0 +1,16 @@
+.env
+# Virtual Environment
+venv/
+env/
+.venv/
+.env.local
+.env.development
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db   
