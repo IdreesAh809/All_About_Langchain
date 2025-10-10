@@ -17,7 +17,7 @@ load_dotenv()
 ## Load the GROQ API key only (HuggingFace token not needed here)
 groq_api_key = os.getenv('GROQ_API_KEY')
 
-st.title("ChatGroq With Llama3 Demo")
+st.title("ChatGroq With Gemma Demo")
 
 # Initialize Llama3 model
 llm = ChatGroq(
@@ -74,3 +74,7 @@ if prompt1:
             for i, doc in enumerate(response["context"]):
                 st.write(doc.page_content)
                 st.write("--------------------------------")
+
+## ## Flow
+
+# Loader → Splitter → Embeddings → FAISS → Retriever → Groq LLM → Output

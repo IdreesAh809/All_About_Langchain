@@ -26,8 +26,13 @@ if "vector" not in st.session_state:
     st.session_state.vectors=FAISS.from_documents(st.session_state.final_documents,st.session_state.embeddings)
 
 st.title("ChatGroq Demo")
-llm=ChatGroq(groq_api_key=groq_api_key,
-             model_name="mixtral-8x7b-32768")
+llm = ChatGroq(
+    groq_api_key=groq_api_key,
+    model="llama-3.3-70b-versatile",  # your chosen model
+    temperature=0.2,                  # optional, controls randomness
+    max_tokens=1024                    # optional, max output length
+)
+
 
 prompt=ChatPromptTemplate.from_template(
 """
