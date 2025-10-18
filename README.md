@@ -33,7 +33,7 @@ To deeply learn and implement:
 
 ##  Repository Structure
 
-```
+
 agents/ — Experiments with LangChain Agents that connect and reason over multiple data sources, integrating tools and retrieval mechanisms for intelligent task execution.
 
 api/ — Backend API integration layer built using FastAPI and Ollama API, demonstrating how to expose LLM and RAG functionalities through REST endpoints (includes Groq, Gemini, and OpenAI connections).
@@ -51,5 +51,6 @@ requirements.txt — Python dependencies for LangChain, FastAPI, and related lib
 packages.txt — List of extra packages used during experimentation.
 
 README.md — Repository overview (this file).
+
 ```
 
