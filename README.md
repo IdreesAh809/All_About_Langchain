@@ -10,8 +10,8 @@ It includes experiments with different **open-source LLMs**, **vector databases*
 To deeply learn and implement:
 
 - All core LangChain modules  
-- Integration with multiple LLM models (**OpenAI**, **Groq**, **Gemini**, **Hugging Face**, **Ollama models** such as **Llama 2** and **Llama 3**)  
-- Use of different embeddings and vector stores (**FAISS**, **Chroma**, **ObjectBox**, etc.)  
+- Integration with multiple LLM models (**OpenAI**, **Groq**, **Gemini**, **Hugging Face**, **Gemma**, **Ollama models** such as **Llama 2** and **Llama 3**)  
+- Use of different embeddings and vector stores (**FAISS**, **Chroma**, **ObjectBox**,Astra DB etc.)  
 - Development of **retrieval-based** and **agent-based** applications  
 - Step-by-step experiments to master every LangChain concept  
 
