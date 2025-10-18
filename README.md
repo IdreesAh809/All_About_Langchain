@@ -52,5 +52,12 @@ packages.txt — List of extra packages used during experimentation.
 
 README.md — Repository overview (this file).
 
-```
 
+
+##  Installation
+
+To install all required dependencies, run:
+
+```
+pip install -r requirements.txt
+```
